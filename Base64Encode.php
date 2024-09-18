@@ -1,6 +1,6 @@
 <?php
 
-$string = "Hathway@123";
+$string = "Hathway@1234";
 
 echo $encodeString = base64_encode($string) . "\n";
 
