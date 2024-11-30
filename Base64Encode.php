@@ -14,16 +14,16 @@ $age = [
 
 
 
-// $age2 = json_encode($age);
+$age2 = json_encode($age);
 
-// $age3 = json_encode($age2);
+$age3 = json_encode($age2);
 
-// $age4 = json_encode($age3);
+$age4 = json_encode($age3);
 
-// $age5 = json_decode($age4);
-// $age6 = json_decode($age5);
+$age5 = json_decode($age4);
+$age6 = json_decode($age5);
 
-// echo $age6;
+echo $age6;
 
 
 ?>
