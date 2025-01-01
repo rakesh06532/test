@@ -7,7 +7,7 @@
 //     return trim($encode_64);
 // }
 
-//echo base64_encode("35.55");
+echo base64_encode("20.00");
 
 
 
@@ -21,6 +21,7 @@ echo strtr(base64_encode("20.00"),"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrs
 function customBase64Encode(input) {
     // Step 1: Standard Base64 encoding
     let base64 = btoa(input);
+    alert(base64);
 
     // Step 2: Custom character translation
     const originalChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
